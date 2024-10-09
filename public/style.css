@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(11, 221, 0);
+}
+.line {
+    background-color: black;
+    height: 2px;
+}
+.add {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+p {
+    margin-left: 10px;
+}
+#ac {
+    padding-left: 5px;
+}
+.chat {
+    display: flex;
+    flex-direction: column;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(161, 255, 156);
+}
+.msg {
+    /* width: calc(100vw - 255px); */
+    margin-right: 10px;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.edit {
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.del {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
